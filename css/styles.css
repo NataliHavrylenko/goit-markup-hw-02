@@ -1,5 +1,6 @@
 :root {
     --accent-color: #2196F3;
+
 }
 
 .list {
@@ -12,6 +13,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+
 }
 
 .logo {
@@ -71,7 +73,7 @@ body {
     color: var(--accent-color);
 }
 
-/*----HERO---*/
+/*================ HERO ================*/
 
 .main-title {
     font-weight: 900;
@@ -99,6 +101,8 @@ body {
     background-color: #188CE8;
 }
 
+/*================ /HERO ================*/
+/*================ ABOUT ================*/
 .about-title {
     font-weight: 700;
     font-size: 14px;
@@ -116,6 +120,9 @@ body {
     color: #757575;
 }
 
+/*================ /ABOUT ================*/
+/*================ WORK ================*/
+
 .section-title {
     font-weight: 700;
     font-size: 36px;
@@ -123,6 +130,16 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+}
+
+/*================ EMPLOYEES ================*/
+
+.section-employees {
+    background: #F5F4FA;
+}
+
+.employee-item {
+    background: #FFFFFF;
 }
 
 .employee-name {
@@ -141,8 +158,8 @@ body {
     color: #757575;
 }
 
-
-/*==== FOOTER ====*/
+/*================ /EMPLOYEES ================*/
+/*================ FOOTER ================*/
 .footer {
     background-color: #2F303A;
 }
@@ -166,6 +183,12 @@ body {
     color: #FFFFFF;
 }
 
+.adress-link:hover,
+.adress-link:focus {
+    color: var(--accent-color);
+}
+
+
 .mail {
     font-style: normal;
     font-weight: 400;
@@ -173,6 +196,11 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.mail:hover,
+.mail:focus {
+    color: var(--accent-color);
 }
 
 .phone {
@@ -183,3 +211,62 @@ body {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
+.phone:hover,
+.phone:focus {
+    color: var(--accent-color);
+}
+
+/*================ /FOOTER ================*/
+
+/*============= PORTFOLIO PAGE =============*/
+
+.menu-link-active {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.btn-filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.btn-filter-active {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: #2196F3;
+}
+
+.btn-filter-active {
+    cursor: pointer;
+}
+
+/*============= PPROJECTS =============*/
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.project-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*=============/ PPROJECTS =============*/
+
+/*============ /PORTFOLIO PAGE ============*/
